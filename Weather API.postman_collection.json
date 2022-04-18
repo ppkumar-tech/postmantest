@@ -17,7 +17,7 @@
 							"});\r",
 							"\r",
 							"const jsonData = pm.response.json();\r",
-							"console.log(jsonData);\r",
+							"\r",
 							"\r",
 							"pm.test(\"Error should be false\", function (){\r",
 							"    pm.expect(jsonData.error).to.be.false;\r",
